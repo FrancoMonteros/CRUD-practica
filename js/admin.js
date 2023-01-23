@@ -24,7 +24,7 @@ console.log(tbodyListado);
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    if (inputproducto.value === "" || inputcodigo === "" || inputdescripcion === "" || inputprecio === "" || inputURL === "") {
+    if (inputproducto.value === "" || inputcodigo.value === "" || inputdescripcion.value === "" || inputprecio.value === "" || inputURL.value === "") {
         alert("todos los campos son obligatorios")
         return;
     }
